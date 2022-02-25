@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="MortgageValue Module(failed)">
+    <classes>
+      <class name="Test_Scripts.Global">
+        <methods>
+          <include name="initiate"/>
+        </methods>
+      </class> <!-- Test_Scripts.Global -->
+      <class name="Test_Scripts.MortgageValue">
+        <methods>
+          <include name="secondMethod"/>
+        </methods>
+      </class> <!-- Test_Scripts.MortgageValue -->
+    </classes>
+  </test> <!-- MortgageValue Module(failed) -->
+  <test name="MortgageCalculate Module(failed)">
+    <classes>
+      <class name="Test_Scripts.Global">
+        <methods>
+          <include name="initiate"/>
+        </methods>
+      </class> <!-- Test_Scripts.Global -->
+      <class name="Test_Scripts.MortgageCalculate">
+        <methods>
+          <include name="thirdMethod"/>
+        </methods>
+      </class> <!-- Test_Scripts.MortgageCalculate -->
+    </classes>
+  </test> <!-- MortgageCalculate Module(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

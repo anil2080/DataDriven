@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MortgageValue Module"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.684">
+  <properties />
+  
+  
+            <testcase name="secondMethod" time="3.933" classname="Test_Scripts.MortgageValue" />
+                <testcase name="secondMethod" time="3.751" classname="Test_Scripts.MortgageValue" />
+      
+</testsuite>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="11258" started-at="2015-11-03T11:15:26Z" finished-at="2015-11-03T11:15:37Z">
+    <groups>
+    </groups>
+    <test name="Global Module" duration-ms="5" started-at="2015-11-03T11:15:26Z" finished-at="2015-11-03T11:15:26Z">
+    </test> <!-- Global Module -->
+    <test name="MortgageValue Module" duration-ms="8142" started-at="2015-11-03T11:15:26Z" finished-at="2015-11-03T11:15:34Z">
+      <class name="Test_Scripts.MortgageValue">
+        <test-method status="PASS" signature="secondMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test_Scripts.MortgageValue@21960050]" name="secondMethod" duration-ms="3933" started-at="2015-11-03T16:45:26Z" data-provider="AddData" finished-at="2015-11-03T16:45:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[300000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.25]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+        <test-method status="PASS" signature="secondMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test_Scripts.MortgageValue@21960050]" name="secondMethod" duration-ms="3751" started-at="2015-11-03T16:45:30Z" data-provider="AddData" finished-at="2015-11-03T16:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000000.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[400000.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+      </class> <!-- Test_Scripts.MortgageValue -->
+    </test> <!-- MortgageValue Module -->
+    <test name="MortgageCalculate Module" duration-ms="3080" started-at="2015-11-03T11:15:34Z" finished-at="2015-11-03T11:15:37Z">
+      <class name="Test_Scripts.MortgageCalculate">
+        <test-method status="PASS" signature="thirdMethod()[pri:0, instance:Test_Scripts.MortgageCalculate@74c3d5ab]" name="thirdMethod" duration-ms="3078" started-at="2015-11-03T16:45:34Z" finished-at="2015-11-03T16:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdMethod -->
+      </class> <!-- Test_Scripts.MortgageCalculate -->
+      <class name="Test_Scripts.Global">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:Test_Scripts.Global@5054a835]" name="initiate" is-config="true" duration-ms="15312" started-at="2015-11-03T16:45:10Z" finished-at="2015-11-03T16:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test_Scripts.Global@5054a835]" name="tearDown" is-config="true" duration-ms="11" started-at="2015-11-03T16:45:37Z" finished-at="2015-11-03T16:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Scripts.Global -->
+    </test> <!-- MortgageCalculate Module -->
+  </suite> <!-- Suite1 -->
+</testng-results>
